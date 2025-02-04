@@ -19,3 +19,32 @@ h1{
 h2{
     color: #125189;
 }
+
+p{
+    text-align: justify;
+}
+header ul{
+    display: flex;
+    justify-content:space-evenly ;/*adicionar espaço entre os elementos do menu*/
+    list-style-type: none; /*tirando stilo lista*/
+    background-color: white;
+    width: 600px; /*largura*/
+    margin: auto; /*adicionar margem a esqueda e direita */
+    margin-bottom: 10px; /* margem abaixo do cabeçalho*/
+    border-radius: 50px; /*curvatura dos cantos header*/
+    box-shadow:20px 20px 20px rgb(20, 19, 19);
+}
+header ul li{
+    margin-right: 10px; /* margem á direita*/
+    padding: 10px; /* espaçamento interno*/
+   transition: transform 0.5s ease; /* transição*/
+}
+header ul li:hover{
+    background: lightgray;
+    transform: scale(1.2);
+}
+    
+header a{
+    text-decoration: none;
+    color: #125189;
+}
